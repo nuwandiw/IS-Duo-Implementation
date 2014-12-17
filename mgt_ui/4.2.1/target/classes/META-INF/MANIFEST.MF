@@ -1,0 +1,44 @@
+Manifest-Version: 1.0
+Export-Package: org.wso2.carbon.idp.mgt.ui.util;uses:="org.apache.comm
+ ons.fileupload.disk,org.wso2.carbon.ui,org.apache.commons.fileupload,
+ org.apache.commons.fileupload.servlet,org.apache.axiom.om.util,org.ws
+ o2.carbon.identity.application.common.model.idp.xsd,org.wso2.carbon.i
+ dentity.application.common,javax.servlet.http";version="4.2.1",org.ws
+ o2.carbon.idp.mgt.ui.client;uses:="org.apache.axis2,org.wso2.carbon.i
+ dp.mgt.stub,org.wso2.carbon.user.mgt.stub.types.carbon,org.wso2.carbo
+ n.user.mgt.stub,org.apache.axis2.client,org.apache.axis2.context,org.
+ wso2.carbon.identity.application.common.model.idp.xsd";version="4.2.1
+ ",org.wso2.carbon.idp.mgt.ui.i18n;version="4.2.1"
+Ignore-Package: org.apache.commons.logging
+Built-By: nuwandi
+Tool: Bnd-1.43.0
+Bundle-Name: org.wso2.carbon.idp.mgt.ui
+Created-By: Apache Maven Bundle Plugin
+Bundle-Vendor: WSO2 Inc
+DynamicImport-Package: *
+Build-Jdk: 1.7.0_51
+Bundle-Version: 4.2.1
+Bnd-LastModified: 1418664519146
+Bundle-ManifestVersion: 2
+Bundle-License: http://www.apache.org/licenses/LICENSE-2.0
+Bundle-Description: This is a Carbon bundle that represents the aggreg
+ ate Identity Provider Management module.
+Bundle-SymbolicName: org.wso2.carbon.idp.mgt.ui
+Carbon-Component: UIBundle
+Import-Package: javax.servlet;version="[2.6.0,3.0.0)",javax.servlet.ht
+ tp;version="[2.6.0,3.0.0)",javax.xml.namespace,org.apache.axiom.om.ut
+ il;resolution:=optional;version="[1.2,2)",org.apache.axis2;resolution
+ :=optional;version="[1.6,2)",org.apache.axis2.client;resolution:=opti
+ onal;version="[1.6,2)",org.apache.axis2.context;resolution:=optional;
+ version="[1.6,2)",org.apache.commons.fileupload;resolution:=optional,
+ org.apache.commons.fileupload.disk;resolution:=optional,org.apache.co
+ mmons.fileupload.servlet;resolution:=optional,org.wso2.carbon.identit
+ y.application.common;resolution:=optional;version="[4.2,5)",org.wso2.
+ carbon.identity.application.common.model.idp.xsd;resolution:=optional
+ ;version="[4.2,5)",org.wso2.carbon.idp.mgt.stub;version="[4.2.0,4.3.0
+ )",org.wso2.carbon.ui;resolution:=optional;version="[4.2,5)",org.wso2
+ .carbon.user.mgt.stub;resolution:=optional;version="[4.2,5)",org.wso2
+ .carbon.user.mgt.stub.types.carbon;resolution:=optional;version="[4.2
+ ,5)"
+Bundle-DocURL: http://wso2.org
+

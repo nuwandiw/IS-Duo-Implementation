@@ -1,0 +1,41 @@
+Manifest-Version: 1.0
+Service-Component: OSGI-INF/serviceComponents.xml
+Export-Package: org.wso2.carbon.identity.application.authenticator.duo
+ auth;uses:="org.wso2.carbon.identity.application.authentication.frame
+ work.config,org.apache.commons.logging,com.duosecurity.duoweb,org.wso
+ 2.carbon.identity.application.authentication.framework.context,org.ws
+ o2.carbon.identity.application.authentication.framework,org.wso2.carb
+ on.identity.application.authentication.framework.config.model,org.wso
+ 2.carbon.identity.application.authentication.framework.exception,java
+ x.servlet.http";version="4.2.2"
+Built-By: nuwandi
+Tool: Bnd-1.43.0
+Bundle-Name: org.wso2.carbon.identity.application.authenticator.duoaut
+ h
+Created-By: Apache Maven Bundle Plugin
+Bundle-Vendor: WSO2 Inc
+DynamicImport-Package: *
+Build-Jdk: 1.7.0_51
+Bundle-Version: 4.2.2
+Bnd-LastModified: 1418802080713
+Bundle-ManifestVersion: 2
+Bundle-License: http://www.apache.org/licenses/LICENSE-2.0
+Bundle-Description: This is a Carbon bundle that represent the Identit
+ y module.
+Import-Package: com.duosecurity.duoweb;resolution:=optional,javax.serv
+ let;version="[2.6.0,3.0.0)",javax.servlet.http;version="[2.6.0,3.0.0)
+ ",org.apache.commons.logging;version="1.0.4",org.osgi.framework;versi
+ on="[1.7,2)",org.osgi.service.component;resolution:=optional;version=
+ "[1.2,2)",org.wso2.carbon.identity.application.authentication.framewo
+ rk;version="[4.2,5)",org.wso2.carbon.identity.application.authenticat
+ ion.framework.config;version="[4.2,5)",org.wso2.carbon.identity.appli
+ cation.authentication.framework.config.model;version="[4.2,5)",org.ws
+ o2.carbon.identity.application.authentication.framework.context;versi
+ on="[4.2,5)",org.wso2.carbon.identity.application.authentication.fram
+ ework.exception;version="[4.2,5)",org.wso2.carbon.identity.applicatio
+ n.authenticator.duoauth;resolution:=optional,org.wso2.carbon.user.cor
+ e.service;resolution:=optional;version="[4.2,5)"
+Bundle-DocURL: http://wso2.org
+Bundle-SymbolicName: org.wso2.carbon.identity.application.authenticato
+ r.duoauth
+
